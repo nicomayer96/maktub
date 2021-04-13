@@ -1,0 +1,152 @@
+---------------------------------
+        GENERIC
+---------------------------------
+body{
+    background-color: black;
+    color: white;
+    }
+
+#logo{
+        position: relative;
+        width: 15%;
+        margin-top: 10px;
+    }
+#naveg{
+    font-weight: bold;
+    background-color: #e82e2e;
+    text-align: center;
+    }
+#ulNav{
+    list-style: none;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#tallerNatural,#alacena,#antireceta,#tyc,#contacto{
+    color: black;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 8px;
+}
+a{
+    color: inherit;
+    text-decoration:none;
+    cursor:pointer;
+}
+a:hover{
+    color: inherit;
+    text-decoration:none;
+    cursor:pointer;
+}
+---------------------------------
+      LOGIN  
+---------------------------------
+#login{
+    width: 350px;
+    }
+
+#divUsuario{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+#labLogin{
+    font-weight: bold;
+    color: #dc3545;
+    font-size: 25px;
+    text-align: center; 
+}
+#divLogin{
+    width: 350px;
+    text-align: center;
+    margin-top: 5%;
+}
+#divRegist{
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+
+---------------------------------
+        STOCK
+---------------------------------
+
+
+
+#divSoloInput{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+#labTitulo{
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.input-group-text{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.input-group{
+    text-align: center;
+
+}
+.seccion{
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    justify-content: center;
+    
+    }
+
+#btnCargar{
+    float: right;
+}
+
+#divStock{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#muestraStock{
+    margin-top: 2%;
+    color: white;
+    font-style: bold;
+}
+
+---------------------------------
+        VENTAS
+---------------------------------
+
+.container{
+    display: flex;
+}
+
+#divPago{
+    padding: inherit;
+    font-style: bold;
+}
+
+#line{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;    
+}
+#agregarPrenda{
+    height: 80%;
+    width: 40%;
+    padding: initial;
+    margin: auto;
+}
+#labelPago{
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
