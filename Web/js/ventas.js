@@ -141,6 +141,7 @@ function verVentas(){
 					value.estadoPago = "Pagado";
 				}else{
 					value.estadoPago = "-";
+					$(this).find('tr').css({"background" : "red"});
 				}
 				if(value.envio = true){
 					value.envio = "Si";
