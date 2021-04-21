@@ -113,7 +113,7 @@ function verVentas(){
 	var ingresoMes = document.getElementById('mes').value;
 	$.ajax({
 		type: "GET",
-		url: "https://jugandobajo.000webhostapp.com/maktub/ventas",
+		url: "https://maktub-test.herokuapp.com/maktub/ventas",
 		dataType: "json",
 		'Access-Control-Allow-Origin': "*",
 		data: {"mes":ingresoMes},
