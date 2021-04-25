@@ -52,7 +52,7 @@ function agregarVenta(){
 	 ventaViewJson = JSON.stringify(ventaView);
 	$.ajax({
 		type: "POST",
-		url: "https://maktub-test.herokuapp.com/maktub/ventas",
+		url: "https://maktub-test.herokuapp.com/maktub/cargarVentas",
 		'Access-Control-Allow-Origin': "*",
 		headers : {		
 		"Content-Type" : "application/json"
