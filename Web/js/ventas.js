@@ -52,7 +52,7 @@ function agregarVenta(){
 	 ventaViewJson = JSON.stringify(ventaView);
 	$.ajax({
 		type: "POST",
-		url: "https://jugandobajo.000webhostapp.com/maktub/cargarVenta",
+		url: "https://maktub-test.herokuapp.com/maktub/ventas",
 		'Access-Control-Allow-Origin': "*",
 		headers : {		
 		"Content-Type" : "application/json"
@@ -113,7 +113,7 @@ function verVentas(){
 	var ingresoMes = document.getElementById('mes').value;
 	$.ajax({
 		type: "GET",
-		url: "https://jugandobajo.000webhostapp.com/maktub/ventas",
+		url: "https://maktub-test.herokuapp.com/maktub/ventas",
 		dataType: "json",
 		'Access-Control-Allow-Origin': "*",
 		data: {"mes":ingresoMes},
