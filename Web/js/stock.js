@@ -30,7 +30,7 @@ function MostrarStock(){
 	
 	$.ajax({
 		type: "GET",
-		url: "https://jugandobajo.000webhostapp.com/maktub/stock",
+		url: "https://maktub-test.herokuapp.com/maktub/stock",
 		dataType: "json",
 		'Access-Control-Allow-Origin': "*",
 		data:{"filtro": filtro},
@@ -92,7 +92,7 @@ function cargarStock(){
 	 stockViewJson = JSON.stringify(stockView);
 	$.ajax({
 		type: "POST",
-		url: "https://files.000webhost.com/maktub/stock",
+		url: "https://maktub-test.herokuapp.com/maktub/stock",
 		'Access-Control-Allow-Origin': "*",
 		headers : {		
 		"Content-Type" : "application/json"
